@@ -1,0 +1,53 @@
+html, body 
+{
+  height: 100%;
+  width: 100%;
+  background-color: #FDF3FF;
+  color: #231F20;
+}
+
+h1 
+{
+  
+}
+
+/*NAV BAR*/
+header 
+{
+  position:fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+ul
+{
+  text-align: right;
+  list-style-type: none;
+  background-color:white;
+  overflow:hidden;
+  padding:2em;
+}
+
+li 
+{
+  display: inline;
+}
+
+li a 
+{
+  color: #5e5e5e;
+  padding:1em;
+  font-size:1em;
+  font-family: "Lucida Console", "Courier New",  monospace;
+  text-decoration-color:#f990a5;
+}
+
+
+li a:hover 
+{
+  background-color:#f3ced5;
+  text-decoration:underline wavy;
+  text-decoration-color:#f990a5;
+}
